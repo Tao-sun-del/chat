@@ -1,6 +1,6 @@
---prefer-binary
+# 移除所有 pip 选项，只保留包列表
 aiofiles==23.2.1
-aiohttp>=3.9.0  # 改为使用较新版本
+aiohttp>=3.9.0
 aiosignal==1.3.1
 altair==5.2.0
 annotated-types==0.6.0
@@ -18,7 +18,7 @@ dataclasses-json==0.6.3
 distro==1.8.0
 duckduckgo-search==3.9.9
 exceptiongroup==1.2.0
-frozenlist==1.4.0
+frozenlist>=1.4.0  # 修改这里
 gitdb==4.0.11
 GitPython==3.1.40
 greenlet>=3.0.0
@@ -51,4 +51,4 @@ numpy>=1.24.0
 openai==1.12.0
 orjson==3.9.15
 packaging==23.2
-pandas>=2.1.0  # 使用兼容版本
+pandas>=2.1.0
