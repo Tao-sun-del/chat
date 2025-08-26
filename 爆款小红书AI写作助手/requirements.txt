@@ -106,7 +106,7 @@ parso==0.8.3
 patsy==0.5.4
 pep517==0.13.1
 pexpect==4.9.0
-Pillow==10.1.0
+Pillow>=10.1.0
 pip-api==0.0.30
 pipreqs==0.4.13
 platformdirs==4.1.0
