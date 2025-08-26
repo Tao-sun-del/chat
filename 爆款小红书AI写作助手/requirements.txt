@@ -1,5 +1,5 @@
 python-3.12
-aiohttp>=3.13.0
+aiohttp>=3.12.0,<3.13.0
 aiosignal>=1.4.0
 altair==5.1.2
 annotated-types==0.6.0
